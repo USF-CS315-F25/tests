@@ -5,13 +5,13 @@ timeout = 30
 name = "01"
 input = ["./hello", "World"]
 expected = "Hello, World!"
-rubric = 15
+rubric = 25
 
 [[tests]]
 name = "02"
 input = ["./hello", "CS315"]
 expected = "Hello, CS315!"
-rubric = 15
+rubric = 25
 
 [[tests]]
 name = "03"
@@ -20,7 +20,7 @@ expected = """
 argv[0] = ./argslens (10)
 argv[1] = foo (3)
 """
-rubric = 15
+rubric = 25
 
 [[tests]]
 name = "04"
@@ -31,4 +31,4 @@ argv[1] = cs315 (5)
 argv[2] = computer (8)
 argv[3] = architecture (12)
 """
-rubric = 15
+rubric = 25
