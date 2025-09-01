@@ -2,23 +2,23 @@
 
 [[lab01.dates]]
 suffix = "due"
-date = "2025-08-27"
+date = "2025-08-28"
 percentage = 1.0
 
 [project01]
 
 [[project01.dates]]
 suffix = "due"
-date = "2025-09-02"
+date = "2025-09-03"
 percentage = 1.0
 
 [[project01.dates]]
 suffix = "1week-late"
-date = "2025-09-09"
+date = "2025-09-10"
 percentage = 0.75
 
 [[project01.dates]]
 suffix = "super-late"
-date = "2025-05-09"
+date = "2025-12-09"
 percentage = 0.50
 
