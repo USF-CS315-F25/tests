@@ -1,0 +1,73 @@
+[[tests]]
+name = "add2-1"
+input = ["./add2", "1", "2"]
+expected = """
+C: 3
+Asm: 3
+"""
+rubric = 10
+
+[[tests]]
+name = "add2-2"
+input = ["./add2", "99", "3"]
+expected = """
+C: 102
+Asm: 102
+"""
+rubric = 10
+
+
+[[tests]]
+name = "add4-1"
+input = ["./add4", "1", "2", "3", "4"]
+expected = """
+C: 10
+Asm: 10
+"""
+rubric = 15
+
+[[tests]]
+name = "add4-2"
+input = ["./add4", "-1", "2", "3", "4"]
+expected = """
+C: 8
+Asm: 8
+"""
+rubric = 15
+
+[[tests]]
+name = "mul2-1"
+input = ["./mul2", "1", "2"]
+expected = """
+C: 2
+Asm: 2
+"""
+rubric = 10
+
+[[tests]]
+name = "mul2-2"
+input = ["./mul2", "3", "7"]
+expected = """
+C: 21
+Asm: 21
+"""
+rubric = 10
+
+
+[[tests]]
+name = "mul4-1"
+input = ["./mul4", "1", "2", "3", "4"]
+expected = """
+C: 24
+Asm: 24
+"""
+rubric = 15
+
+[[tests]]
+name = "mul4-2"
+input = ["./mul4", "-1", "2", "3", "10"]
+expected = """
+C: -60
+Asm: -60
+"""
+rubric = 15
