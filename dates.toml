@@ -14,7 +14,7 @@ percentage = 1.0
 
 [[project01.dates]]
 suffix = "1week-late"
-date = "2025-09-10"
+date = "2025-09-12"
 percentage = 0.75
 
 [[project01.dates]]
