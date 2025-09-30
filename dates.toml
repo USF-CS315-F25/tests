@@ -53,6 +53,13 @@ suffix = "super-late"
 date = "2025-12-09"
 percentage = 0.50
 
+[lab04]
+
+[[lab04.dates]]
+suffix = "due"
+date = "2025-09-20"
+percentage = 1.0
+
 [project03]
 
 [[project03.dates]]
@@ -70,6 +77,13 @@ suffix = "super-late"
 date = "2025-12-09"
 percentage = 0.50
 
+[lab05]
+
+[[lab05.dates]]
+suffix = "due"
+date = "2025-09-30"
+percentage = 1.0
+
 [lab06]
 
 [[lab06.dates]]
@@ -77,3 +91,19 @@ suffix = "due"
 date = "2025-10-01"
 percentage = 1.0
 
+[project04]
+
+[[project04.dates]]
+suffix = "due"
+date = "2025-10-08"
+percentage = 1.0
+
+[[project03.dates]]
+suffix = "1week-late"
+date = "2025-10-15"
+percentage = 0.75
+
+[[project03.dates]]
+suffix = "super-late"
+date = "2025-12-09"
+percentage = 0.50
