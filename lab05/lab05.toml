@@ -1,0 +1,7 @@
+[[tests]]
+name = "none"
+input = ["./none"]
+expected = """
+none
+"""
+rubric = 1
