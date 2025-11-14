@@ -1,5 +1,5 @@
 
-prog-fibrec.o:     file format elf64-littleriscv
+17-prog-fibrec.o:     file format elf64-littleriscv
 
 
 Disassembly of section .text:
@@ -16,7 +16,7 @@ Disassembly of section .text:
   18:	00008067          	ret
 
 000000000000001c <rec_case>:
-  1c:	fe810113          	addi	sp,sp,-24
+  1c:	fe010113          	addi	sp,sp,-32
   20:	00113023          	sd	ra,0(sp)
   24:	00a13423          	sd	a0,8(sp)
   28:	fff50513          	addi	a0,a0,-1
@@ -28,5 +28,5 @@ Disassembly of section .text:
   40:	01013303          	ld	t1,16(sp)
   44:	00650533          	add	a0,a0,t1
   48:	00013083          	ld	ra,0(sp)
-  4c:	01810113          	addi	sp,sp,24
+  4c:	02010113          	addi	sp,sp,32
   50:	00008067          	ret

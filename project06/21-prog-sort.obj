@@ -1,5 +1,5 @@
 
-prog-sort.o:     file format elf64-littleriscv
+21-prog-sort.o:     file format elf64-littleriscv
 
 
 Disassembly of section .text:
@@ -21,7 +21,7 @@ Disassembly of section .text:
   34:	00512a23          	sw	t0,20(sp)
   38:	00200533          	add	a0,zero,sp
   3c:	002004b3          	add	s1,zero,sp
-  40:	00400593          	li	a1,4
+  40:	00600593          	li	a1,6
   44:	038000ef          	jal	7c <sort_s>
   48:	0004a503          	lw	a0,0(s1)
   4c:	02051513          	slli	a0,a0,0x20

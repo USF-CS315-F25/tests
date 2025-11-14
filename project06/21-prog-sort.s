@@ -15,7 +15,7 @@ main:
     sw t0, 20(sp)
     add a0, zero, sp    # set up arr arg
     add s1, zero, sp    # save array addr
-    li a1, 4            # set up len
+    li a1, 6            # set up len
     jal sort_s
 
     lw a0, 0(s1)        # pack the first two words into a0

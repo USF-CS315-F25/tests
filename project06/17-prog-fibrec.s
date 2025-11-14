@@ -21,7 +21,7 @@ fib_rec_s:
     ret
 
 rec_case:
-    addi sp, sp, -24    # prologue
+    addi sp, sp, -32    # prologue
     sd ra, (sp)
 
     sd a0, 8(sp)        # preserve n
@@ -35,5 +35,5 @@ rec_case:
     add a0, a0, t1      # add the retvals of each recursion
     
     ld ra, (sp)         # epilogue
-    addi sp, sp, 24
+    addi sp, sp, 32
     ret
